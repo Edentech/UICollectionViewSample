@@ -19,6 +19,7 @@
 		5043CC1916CD42770036C648 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5043CC1716CD42770036C648 /* MainStoryboard_iPhone.storyboard */; };
 		5043CC1C16CD42770036C648 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5043CC1A16CD42770036C648 /* MainStoryboard_iPad.storyboard */; };
 		5043CC1F16CD42770036C648 /* ETViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5043CC1E16CD42770036C648 /* ETViewController.m */; };
+		5043CC2716CD644C0036C648 /* ETAwesomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5043CC2616CD644C0036C648 /* ETAwesomeCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		5043CC1B16CD42770036C648 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		5043CC1D16CD42770036C648 /* ETViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETViewController.h; sourceTree = "<group>"; };
 		5043CC1E16CD42770036C648 /* ETViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETViewController.m; sourceTree = "<group>"; };
+		5043CC2516CD644C0036C648 /* ETAwesomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETAwesomeCollectionViewCell.h; sourceTree = "<group>"; };
+		5043CC2616CD644C0036C648 /* ETAwesomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETAwesomeCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				5043CC1D16CD42770036C648 /* ETViewController.h */,
 				5043CC1E16CD42770036C648 /* ETViewController.m */,
 				5043CC0616CD42770036C648 /* Supporting Files */,
+				5043CC2516CD644C0036C648 /* ETAwesomeCollectionViewCell.h */,
+				5043CC2616CD644C0036C648 /* ETAwesomeCollectionViewCell.m */,
 			);
 			path = ETCollectionViewSample;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 				5043CC0C16CD42770036C648 /* main.m in Sources */,
 				5043CC1016CD42770036C648 /* ETAppDelegate.m in Sources */,
 				5043CC1F16CD42770036C648 /* ETViewController.m in Sources */,
+				5043CC2716CD644C0036C648 /* ETAwesomeCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

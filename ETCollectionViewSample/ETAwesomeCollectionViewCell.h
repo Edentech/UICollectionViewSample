@@ -1,5 +1,5 @@
 //
-//  ETViewController.h
+//  ETAwesomeCollectionViewCell.h
 //  ETCollectionViewSample
 //
 //  Created by Matthew Mondok on 2/14/13.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ETViewController : UIViewController<UICollectionViewDataSource, UICollectionViewDelegate>{
-  NSArray *collectionItems;
-}
+@interface ETAwesomeCollectionViewCell : UICollectionViewCell
+@property (weak, nonatomic) IBOutlet UILabel *nameForCell;
 
 @end
